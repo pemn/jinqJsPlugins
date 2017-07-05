@@ -1,5 +1,5 @@
 # jinqJsPlugins
-Custom plugins for jinqJs
+Custom plugins for @fordth / jinqJs
 
 ## jinqjs-breakdown.js
 Weighted agregation of values.  
