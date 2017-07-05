@@ -71,6 +71,9 @@ var breakdown_findRows = function(result, args){
   return(rows);
 }
 
+// Breakdown: Weighted agregation using template
+// this plugin is a port of the funcionality of Perl function breakdown()
+// Check github/pemn/Namedtable/Namedtable.pm for details
 jinqJs.addPlugin('breakdown', function(result, args, store){
   var rows = breakdown_findRows(result, args);
   // perform field aggregation according to the operation specified for each
